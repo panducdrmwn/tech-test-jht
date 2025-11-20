@@ -12,7 +12,7 @@ npm install
 npm run dev
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Run Unit Tests
 
 ```sh
 npm run test:unit
