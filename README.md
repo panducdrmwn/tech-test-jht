@@ -1,12 +1,14 @@
 # Transport Shipment Tracker
 
 ## Project Structure
+```sh
 src/
 ├── assets/
 ├── data/
 ├── router/
 ├── stores/
 ├── views/
+```
 
 ## Project Setup
 
