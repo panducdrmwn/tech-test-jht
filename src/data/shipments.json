@@ -1,0 +1,119 @@
+{
+  "shipments": [
+    {
+      "id": "SHP-00001",
+      "origin": "Jakarta",
+      "destination": "Surabaya",
+      "status": "Assigned",
+      "carrier": "JNT",
+      "vehicle": "APV",
+      "driverId": "DRV-1001",
+      "driverName": "Agus",
+      "driverContact": "081185550113",
+      "departureDate": "2025-11-20T08:00:00-08:00",
+      "eta": "2025-11-23T18:00:00-06:00"
+      
+    },
+    {
+      "id": "SHP-00002",
+      "origin": "Jakarta",
+      "destination": "Denpasar",
+      "status": "Not Assigned",
+      "carrier": "Paxel",
+      "vehicle": "TBD",
+      "driverId": "",
+      "driverName": "",
+      "driverContact": "",
+      "departureDate": "2025-11-22T06:00:00-05:00",
+      "eta": "2025-11-24T14:00:00-06:00"
+     
+    },
+    {
+      "id": "SHP-00003",
+      "origin": "Medan",
+      "destination": "Padang",
+      "status": "Assigned",
+      "carrier": "TIKI",
+      "vehicle": "APV",
+      "driverId": "DRV-1003",
+      "driverName": "Budi",
+      "driverContact": "082945550198",
+      "departureDate": "2025-11-19T05:00:00-08:00",
+      "eta": "2025-11-21T21:00:00-07:00"
+    
+    },
+    {
+      "id": "SHP-00004",
+      "origin": "Kupang",
+      "destination": "Makassar",
+      "status": "Assigned",
+      "carrier": "SICEPAT",
+      "vehicle": "Truk Hino Dutro",
+      "driverId": "DRV-1004",
+      "driverName": "Boris",
+      "driverContact": "08123456536",
+      "departureDate": "2025-11-21T09:00:00-07:00",
+      "eta": "2025-11-23T20:00:00-06:00"
+    
+    },
+    {
+      "id": "SHP-00005",
+      "origin": "Balikpapan",
+      "destination": "Samarinda",
+      "status": "Not Assigned",
+      "carrier": "JNE",
+      "vehicle": "TBD",
+      "driverId": "",
+      "driverName": "",
+      "driverContact": "",
+      "departureDate": "2025-11-25T10:00:00-05:00",
+      "eta": "2025-11-27T19:00:00-05:00"
+    
+    }
+  ],
+  "drivers": [
+    {
+      "id": "DRV-1001",
+      "name": "Agus",
+      "contact": "081185550113",
+      "region": "Jakarta",
+      "equipment": "APV"
+    },
+    {
+      "id": "DRV-1002",
+      "name": "Rizky",
+      "contact": "08225550124",
+      "region": "Medan",
+      "equipment": "Truk Hino Dutro"
+    },
+    {
+      "id": "DRV-1003",
+      "name": "Budi",
+      "contact": "082945550198",
+      "region": "Denpasar",
+      "equipment": "APV"
+    },
+    {
+      "id": "DRV-1004",
+      "name": "Boris",
+      "contact": "08123456536",
+      "region": "Kupang",
+      "equipment": "Truk Hino Dutro"
+    },
+    {
+      "id": "DRV-1005",
+      "name": "Pandu",
+      "contact": "89182389233",
+      "region": "Balikpapan",
+      "equipment": "L300"
+    },
+    {
+      "id": "DRV-1006",
+      "name": "Gilang",
+      "contact": "084748728424",
+      "region": "Padang",
+      "equipment": "L300"
+    }
+  ]
+}
+
