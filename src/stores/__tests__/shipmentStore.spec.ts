@@ -5,7 +5,6 @@ import { useShipmentStore } from '../shipmentStore'
 
 describe('useShipmentStore - assignDriver', () => {
   beforeEach(() => {
-    // create a fresh Pinia instance for each test
     setActivePinia(createPinia())
   })
 
@@ -23,7 +22,7 @@ describe('useShipmentStore - assignDriver', () => {
     const initialStatus = unassignedShipment.status
     const initialDriverName = unassignedShipment.driverName
 
-    // ambil driver dari data driver 
+    // ambil driver dari data driver
     const driver = store.drivers[0]
     expect(driver).toBeDefined()
 
@@ -55,6 +54,4 @@ describe('useShipmentStore - assignDriver', () => {
       expect(updatedShipment?.driverName).not.toBe(initialDriverName)
     }
   })
-
 })
-
