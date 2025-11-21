@@ -1,5 +1,15 @@
 # Transport Shipment Tracker
 
+## Project Structure
+```sh
+src/
+├── assets/
+├── data/
+├── router/
+├── stores/
+├── views/
+```
+
 ## Project Setup
 
 ```sh
@@ -17,4 +27,8 @@ npm run dev
 ```sh
 npm run test:unit
 ```
+### Assumption
 
+```sh
+data is from dummy JSON
+```
